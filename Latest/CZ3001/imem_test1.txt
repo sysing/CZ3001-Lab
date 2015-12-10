@@ -1,0 +1,16 @@
+0000 0100	//SET [R1] TO 0
+0001 0000
+0002 d008	//JAL to PC 0008, save 0003 into register 8
+0003 0000	
+0004 0000
+0005 b00e 	//JUMP to PC 000e	
+0006 0000
+0007 0000	
+0008 e113	//ADDI R1, R1, #3 (R1 = R1 + 3, hence R1 now = 3)
+0009 0000   
+000a 0000	
+000b c008	//JR using register 8 to return to PC 3
+000c 0000	
+000d 0000
+000e e112	//ADDI R1, R1, #2 (R1 = R1 + 2, hence R1 now = 3)
+000f 0000

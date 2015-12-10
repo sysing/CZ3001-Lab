@@ -1,0 +1,34 @@
+//3b
+0000 0100 			 //[R1]=sum1
+0001 0200 			 //[R2]=sum2
+0002 0300			 //[R3]=sum3
+0003 0400			 //[R4]=sum4
+0004 0500			 // [R5] =current i value
+0005 060e			 // [R6]= 8 = max i value
+0006 87a0			 //a[i] //Assume that R10 contains starting address of a
+0007 88b0 			 //b[i] //Assume that R11 contains starting address of b 
+0008 89c0			 //c[i] //Assume that R12 contains starting address of c
+0009 8ad0			 //d[i] //Assume that R13 contains starting address of d
+000a 0171 			// sum = sum1 + a[i]
+000b 0282		 	// sum = sum2 + b[i]
+000c 0393 			// sum = sum3 + c[i]
+000d 04a4 			// sum = sum4 + d[i]
+000e 011f 			//Shift to next memory entry. a[i+1]
+000f 022f			//Shift to next memory entry. b[i+1]
+0010 033f 			//Shift to next memory entry. c[i+1]
+0011 044f 			//Shift to next memory entry. d[i+1]
+0012 055f 			//Increase i by 1.
+0013 a565			// Check if i ==8,Compute average if i reaches 8.
+0014 0000
+0015 0000
+0016 0000
+0017 b006 			//Otherwise, loop it until i reaches 8.
+0018 0000
+0019 5113		//sum1 divide by srl 3 times (2 ^ 3 = 8)
+001a 5223		//sum2 divide by srl 3 times (2 ^ 3 = 8)	
+001b 5333  		//sum3 divide by srl 3 times (2 ^ 3 = 8)			
+001c 5443 		//sum4 divide by srl 3 times (2 ^ 3 = 8)	
+001d 910a  			// save a_average
+001e 920b  			// save b_average
+001f 930c  			// save c_average
+0020 940d			// save d_average

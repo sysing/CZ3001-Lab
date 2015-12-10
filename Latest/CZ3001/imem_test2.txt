@@ -1,0 +1,18 @@
+0000 0100 //SET [R1] TO 0, [R1] = sum
+0001 0200 //SET [R2] TO 0, [R2] = of i
+0002 030e //SET [R2] TO [R14], which stores the max i value
+0003 84b0 //Load value of x[0] into R4, assuming the starting address is at R11
+0004 022f // i+=1
+0005 0bbf //Shift to next memory entry. x[i+1]
+0006 0114 //sum = sum + x[i]
+0007 a235 //if (i == 8), exit 
+0008 0000 //STALL
+0009 0000 //Stall
+000a 0000 //Stall
+000b b003 //Otherwise, loop it until i reaches  8.
+000c 0000 //stall
+000d 5113 //Divide by using shift right logical 3 times (2 to power of 3 = 8)
+000e 0000 //Stall
+000f 0000 //Stall
+0010 0000 //Stall
+0011 9160 //Save average

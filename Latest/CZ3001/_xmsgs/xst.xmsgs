@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="816" delta="old" >"D:\Dropbox\CZ3001 Project\Latest\CZ3001\memory.v" Line 41: System function call <arg fmt="%s" index="1">feof</arg> not supported
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="817" delta="old" >"D:\Dropbox\CZ3001 Project\Latest\CZ3001\memory.v" Line 55: System task <arg fmt="%s" index="1">fclose</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="816" delta="old" >"D:\Dropbox\CZ3001 Project\Latest\CZ3001\data_memory.v" Line 61: System function call <arg fmt="%s" index="1">feof</arg> not supported
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="817" delta="old" >"D:\Dropbox\CZ3001 Project\Latest\CZ3001\data_memory.v" Line 75: System task <arg fmt="%s" index="1">fclose</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">IMfileid</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">addr&lt;15:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DMfileid</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0029</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">data_memory/Mram_memory</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">im/Mram_memory</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/imm_out_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/imm_out_4&gt; &lt;PIPE1/imm_out_5&gt; &lt;PIPE1/imm_out_6&gt; &lt;PIPE1/imm_out_7&gt; &lt;PIPE1/imm_out_8&gt; &lt;PIPE1/imm_out_9&gt; &lt;PIPE1/imm_out_10&gt; &lt;PIPE1/imm_out_11&gt; &lt;PIPE1/imm_out_12&gt; &lt;PIPE1/imm_out_13&gt; &lt;PIPE1/imm_out_14&gt; &lt;PIPE1/imm_out_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">im/Mram_memory1</arg>&gt;, &lt;<arg fmt="%s" index="2">im/Mram_memory2</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">im/Mram_memory1</arg>&gt;, &lt;<arg fmt="%s" index="2">im/Mram_memory3</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">im/Mram_memory1</arg>&gt;, &lt;<arg fmt="%s" index="2">im/Mram_memory4</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/imm_out_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/waddr_out_ID_EXE_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/imm_out_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/waddr_out_ID_EXE_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/imm_out_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/waddr_out_ID_EXE_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/imm_out_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/waddr_out_ID_EXE_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIPE1/wdata_out_ID_EXE_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pipelined_regfile_5stage</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIPE1/rdata1_out_ID_EXE_9&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>
